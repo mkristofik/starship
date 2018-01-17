@@ -1,0 +1,21 @@
+{
+    "name": "",
+    "manufacturer": "",
+    "type": "Short Range Patrol Craft",
+    "mass_tons": "75.05",
+    "length_m": 25,
+    "cargo_tons": 0.0,
+    "shields": 0,
+    "hull": 0,
+    "atmosphere_capable": 0,
+    "speed": "0",
+    "hyperdrive": "None",
+    "techbase": "New Republic",
+    "equipment": {
+        "forward": [],
+        "left_side": [],
+        "right_side": [],
+        "back": []
+    },
+    "onboard_craft": []
+}

@@ -1,0 +1,94 @@
+{
+    "name": "Victory-Class Star Destroyer",
+    "manufacturer": "Rendili Star Drive",
+    "type": "Military Combat Starship",
+    "mass_tons": "979693.88",
+    "length_m": 900,
+    "cargo_tons": 8100.0,
+    "shields": 3000,
+    "hull": 1500,
+    "atmosphere_capable": 0,
+    "speed": "1",
+    "hyperdrive": "Standard",
+    "techbase": "Imperial",
+    "equipment": {
+        "forward": [
+            {
+                "num": 10,
+                "name": "Double Small Turbolaser",
+                "mass_tons": 120.0,
+                "power": 108000.0,
+                "turret": 0
+            },
+            {
+                "num": 5,
+                "name": "Quad Medium Turbolaser",
+                "mass_tons": 200.0,
+                "power": 160000.0,
+                "turret": 0
+            },
+            {
+                "num": 4,
+                "name": "Tractor Beam Projector",
+                "mass_tons": 360.0,
+                "power": 28800.0,
+                "turret": 0
+            }
+        ],
+        "left_side": [
+            {
+                "num": 15,
+                "name": "Double Small Turbolaser",
+                "mass_tons": 180.0,
+                "power": 162000.0,
+                "turret": 0
+            },
+            {
+                "num": 2,
+                "name": "Tractor Beam Projector",
+                "mass_tons": 180.0,
+                "power": 14400.0,
+                "turret": 0
+            }
+        ],
+        "right_side": [
+            {
+                "num": 15,
+                "name": "Double Small Turbolaser",
+                "mass_tons": 180.0,
+                "power": 162000.0,
+                "turret": 0
+            },
+            {
+                "num": 2,
+                "name": "Tractor Beam Projector",
+                "mass_tons": 180.0,
+                "power": 14400.0,
+                "turret": 0
+            }
+        ],
+        "back": [
+            {
+                "num": 5,
+                "name": "Quad Medium Turbolaser",
+                "mass_tons": 200.0,
+                "power": 160000.0,
+                "turret": 0
+            },
+            {
+                "num": 2,
+                "name": "Tractor Beam Projector",
+                "mass_tons": 180.0,
+                "power": 14400.0,
+                "turret": 0
+            }
+        ]
+    },
+    "onboard_craft": [
+        {
+            "num": 2,
+            "name": "Medium Squadrons (I)",
+            "mass_tons": 6600.0
+        }
+    ]
+}

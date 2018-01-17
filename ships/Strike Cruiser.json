@@ -1,0 +1,101 @@
+{
+    "name": "Strike Cruiser",
+    "manufacturer": "Lorinar Engineering Corporation",
+    "type": "Military Combat Starship",
+    "mass_tons": "248873.38",
+    "length_m": 450,
+    "cargo_tons": 6000.0,
+    "shields": 1590,
+    "hull": 750,
+    "atmosphere_capable": 0,
+    "speed": "1",
+    "hyperdrive": "Standard",
+    "techbase": "Imperial",
+    "equipment": {
+        "forward": [
+            {
+                "num": 5,
+                "name": "Medium Turbolaser",
+                "mass_tons": 50.0,
+                "power": 50000.0,
+                "turret": 0
+            },
+            {
+                "num": 4,
+                "name": "Heavy Turbolaser",
+                "mass_tons": 48.0,
+                "power": 48000.0,
+                "turret": 0
+            },
+            {
+                "num": 4,
+                "name": "Heavy Ion Cannon",
+                "mass_tons": 18.0,
+                "power": 12060.0,
+                "turret": 0
+            }
+        ],
+        "left_side": [
+            {
+                "num": 5,
+                "name": "Medium Turbolaser",
+                "mass_tons": 50.0,
+                "power": 50000.0,
+                "turret": 0
+            },
+            {
+                "num": 3,
+                "name": "Heavy Turbolaser",
+                "mass_tons": 36.0,
+                "power": 36000.0,
+                "turret": 0
+            },
+            {
+                "num": 3,
+                "name": "Heavy Ion Cannon",
+                "mass_tons": 13.5,
+                "power": 9045.0,
+                "turret": 0
+            }
+        ],
+        "right_side": [
+            {
+                "num": 5,
+                "name": "Medium Turbolaser",
+                "mass_tons": 50.0,
+                "power": 50000.0,
+                "turret": 0
+            },
+            {
+                "num": 3,
+                "name": "Heavy Turbolaser",
+                "mass_tons": 36.0,
+                "power": 36000.0,
+                "turret": 0
+            },
+            {
+                "num": 3,
+                "name": "Heavy Ion Cannon",
+                "mass_tons": 13.5,
+                "power": 9045.0,
+                "turret": 0
+            }
+        ],
+        "back": [
+            {
+                "num": 5,
+                "name": "Medium Turbolaser",
+                "mass_tons": 50.0,
+                "power": 50000.0,
+                "turret": 0
+            }
+        ]
+    },
+    "onboard_craft": [
+        {
+            "num": 1,
+            "name": "Medium Squadron (I)",
+            "mass_tons": 3300.0
+        }
+    ]
+}

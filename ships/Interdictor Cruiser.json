@@ -1,0 +1,58 @@
+{
+    "name": "Interdictor Cruiser",
+    "manufacturer": "Sienar Fleet Systems",
+    "type": "Military Combat Starship",
+    "mass_tons": "437706.76",
+    "length_m": 600,
+    "cargo_tons": 5500.0,
+    "shields": 1980,
+    "hull": 850,
+    "atmosphere_capable": 0,
+    "speed": "1",
+    "hyperdrive": "Standard",
+    "techbase": "Imperial",
+    "equipment": {
+        "forward": [
+            {
+                "num": 10,
+                "name": "Heavy Laser",
+                "mass_tons": 45.0,
+                "power": 14850.0,
+                "turret": 0
+            },
+            {
+                "num": 1,
+                "name": "Gravity Well Projector",
+                "mass_tons": 25000.0,
+                "power": 50000.0,
+                "turret": 0
+            }
+        ],
+        "left_side": [
+            {
+                "num": 5,
+                "name": "Heavy Laser",
+                "mass_tons": 22.5,
+                "power": 7425.0,
+                "turret": 0
+            }
+        ],
+        "right_side": [
+            {
+                "num": 5,
+                "name": "Heavy Laser",
+                "mass_tons": 22.5,
+                "power": 7425.0,
+                "turret": 0
+            }
+        ],
+        "back": []
+    },
+    "onboard_craft": [
+        {
+            "num": 2,
+            "name": "Medium Squadrons (I)",
+            "mass_tons": 6600.0
+        }
+    ]
+}

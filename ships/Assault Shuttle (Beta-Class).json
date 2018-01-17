@@ -1,0 +1,51 @@
+{
+    "name": "Assault Shuttle (Beta-Class)",
+    "manufacturer": "Telgorn Corporation",
+    "type": "Military Transport/Freighter",
+    "mass_tons": "1906.89",
+    "length_m": 40,
+    "cargo_tons": 0.5,
+    "shields": 170,
+    "hull": 80,
+    "atmosphere_capable": 1,
+    "speed": "3",
+    "hyperdrive": "Standard",
+    "techbase": "Imperial",
+    "equipment": {
+        "forward": [
+            {
+                "num": 2,
+                "name": "Medium Laser",
+                "mass_tons": 6.0,
+                "power": 1980.0,
+                "turret": 0
+            },
+            {
+                "num": 1,
+                "name": "Concussion Missile Tube",
+                "mass_tons": 6.0,
+                "power": 0.0,
+                "turret": 0
+            },
+            {
+                "num": 1,
+                "name": "Light Tractor Beam",
+                "mass_tons": 15.0,
+                "power": 1200.0,
+                "turret": 0
+            }
+        ],
+        "left_side": [],
+        "right_side": [],
+        "back": [
+            {
+                "num": 2,
+                "name": "Medium Laser",
+                "mass_tons": 6.0,
+                "power": 1980.0,
+                "turret": 0
+            }
+        ]
+    },
+    "onboard_craft": []
+}

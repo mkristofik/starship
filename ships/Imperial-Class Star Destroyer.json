@@ -1,0 +1,116 @@
+{
+    "name": "Imperial-Class Star Destroyer",
+    "manufacturer": "Kuat Drive Yards",
+    "type": "Military Combat Starship",
+    "mass_tons": "2983504.35",
+    "length_m": 1600,
+    "cargo_tons": 36000.0,
+    "shields": 4800,
+    "hull": 2270,
+    "atmosphere_capable": 0,
+    "speed": "1",
+    "hyperdrive": "Standard",
+    "techbase": "Imperial",
+    "equipment": {
+        "forward": [
+            {
+                "num": 20,
+                "name": "Heavy Turbolaser",
+                "mass_tons": 240.0,
+                "power": 240000.0,
+                "turret": 0
+            },
+            {
+                "num": 20,
+                "name": "Heavy Ion Cannon",
+                "mass_tons": 90.0,
+                "power": 60300.0,
+                "turret": 0
+            },
+            {
+                "num": 6,
+                "name": "Tractor Beam Projector",
+                "mass_tons": 540.0,
+                "power": 43200.0,
+                "turret": 0
+            }
+        ],
+        "left_side": [
+            {
+                "num": 20,
+                "name": "Heavy Turbolaser",
+                "mass_tons": 240.0,
+                "power": 240000.0,
+                "turret": 0
+            },
+            {
+                "num": 15,
+                "name": "Heavy Ion Cannon",
+                "mass_tons": 67.5,
+                "power": 45225.0,
+                "turret": 0
+            },
+            {
+                "num": 2,
+                "name": "Tractor Beam Projector",
+                "mass_tons": 180.0,
+                "power": 14400.0,
+                "turret": 0
+            }
+        ],
+        "right_side": [
+            {
+                "num": 20,
+                "name": "Heavy Turbolaser",
+                "mass_tons": 240.0,
+                "power": 240000.0,
+                "turret": 0
+            },
+            {
+                "num": 15,
+                "name": "Heavy Ion Cannon",
+                "mass_tons": 67.5,
+                "power": 45225.0,
+                "turret": 0
+            },
+            {
+                "num": 2,
+                "name": "Tractor Beam Projector",
+                "mass_tons": 180.0,
+                "power": 14400.0,
+                "turret": 0
+            }
+        ],
+        "back": [
+            {
+                "num": 10,
+                "name": "Heavy Ion Cannon",
+                "mass_tons": 45.0,
+                "power": 30150.0,
+                "turret": 0
+            }
+        ]
+    },
+    "onboard_craft": [
+        {
+            "num": 3,
+            "name": "TIE Fighter Squadrons",
+            "mass_tons": 3600.0
+        },
+        {
+            "num": 2,
+            "name": "TIE Interceptor Squadrons",
+            "mass_tons": 4200.0
+        },
+        {
+            "num": 1,
+            "name": "TIE Bomber Squadron",
+            "mass_tons": 2700.0
+        },
+        {
+            "num": 5,
+            "name": "Assault Gunboats",
+            "mass_tons": 1625.0
+        }
+    ]
+}

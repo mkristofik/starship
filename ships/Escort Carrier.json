@@ -1,0 +1,69 @@
+{
+    "name": "Escort Carrier",
+    "manufacturer": "Kuat Drive Yards",
+    "type": "Military Combat Starship",
+    "mass_tons": "290306.34",
+    "length_m": 500,
+    "cargo_tons": 500.0,
+    "shields": 1600,
+    "hull": 900,
+    "atmosphere_capable": 0,
+    "speed": "1",
+    "hyperdrive": "Standard",
+    "techbase": "Imperial",
+    "equipment": {
+        "forward": [
+            {
+                "num": 2,
+                "name": "Double Medium Laser",
+                "mass_tons": 12.0,
+                "power": 3564.0,
+                "turret": 0
+            }
+        ],
+        "left_side": [
+            {
+                "num": 3,
+                "name": "Double Medium Laser",
+                "mass_tons": 18.0,
+                "power": 5346.0,
+                "turret": 0
+            }
+        ],
+        "right_side": [
+            {
+                "num": 3,
+                "name": "Double Medium Laser",
+                "mass_tons": 18.0,
+                "power": 5346.0,
+                "turret": 0
+            }
+        ],
+        "back": [
+            {
+                "num": 2,
+                "name": "Double Medium Laser",
+                "mass_tons": 12.0,
+                "power": 3564.0,
+                "turret": 0
+            }
+        ]
+    },
+    "onboard_craft": [
+        {
+            "num": 4,
+            "name": "TIE Fighter Squadrons",
+            "mass_tons": 4800.0
+        },
+        {
+            "num": 1,
+            "name": "TIE Interceptor Squadron",
+            "mass_tons": 2100.0
+        },
+        {
+            "num": 1,
+            "name": "TIE Bomber Squadron",
+            "mass_tons": 2700.0
+        }
+    ]
+}

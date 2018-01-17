@@ -46,6 +46,43 @@ def get_techbase(tb):
     return strs[tb]
 
 
+def parse_equipment(fh):
+    equipment = {
+        'forward': [],
+        'left_side': [],
+        'right_side': [],
+        'back': []
+    }
+    locs = ['forward', 'left_side', 'right_side', 'back']
+    for _ in range(26):
+        equip_record = read_unpack(fh, '<hh25sddhh')
+        num = equip_record[0]
+        if not num:
+            continue
+        loc = locs[equip_record[1]]
+        equipment[loc].append({
+            'num': num,
+            'name': equip_record[2].decode().strip(),
+            'mass_tons': equip_record[3],
+            'power': equip_record[4],
+            'turret': equip_record[6]
+        })
+    return equipment
+
+
+def parse_craft(fh):
+    for _ in range(10):
+        craft_record = read_unpack(fh, '<h35sd')
+        num = craft_record[0]
+        if not num:
+            continue
+        yield {
+            'num': num,
+            'name': craft_record[1].decode().strip(),
+            'mass_tons': craft_record[2]
+        }
+
+
 def parse_starship(filename):
     ship = {}
     with open(filename, 'rb') as f:
@@ -62,6 +99,9 @@ def parse_starship(filename):
         ship['speed'] = get_speed(ship_record[9])
         ship['hyperdrive'] = get_hyperdrive(ship_record[10])
         ship['techbase'] = get_techbase(ship_record[11])
+
+        ship['equipment'] = parse_equipment(f)
+        ship['onboard_craft'] = list(parse_craft(f))
     return ship
 
 
